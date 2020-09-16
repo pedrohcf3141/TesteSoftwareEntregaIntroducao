@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.MediaCalculadorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-15T23:49:21" hostname="pedrohcf-Aspire-A515-51" time="0.015">
+  <properties/>
+  <testcase name="testeDoubleReprovado()" classname="model.MediaCalculadorTest" time="0.013"/>
+  <testcase name="testeDoubleAprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
