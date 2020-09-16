@@ -13,4 +13,15 @@ public class Calculadora{
         return media;
     }
     
+    public String aprovacao(double x, double y){
+        double media = (x+y) * 0.5;
+        if(media >= 6.0){
+            return "Aprovado";
+        }
+        else{
+            return "Reprovado";
+        }
+    }
+
+
 }
