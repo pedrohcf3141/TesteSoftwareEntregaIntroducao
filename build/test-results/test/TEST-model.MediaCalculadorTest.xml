@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="model.MediaCalculadorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-14T01:04:15" hostname="pedrohcf-Aspire-A515-51" time="0.036">
+<testsuite name="model.MediaCalculadorTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-10-14T02:05:46" hostname="pedrohcf-Aspire-A515-51" time="0.04">
   <properties/>
-  <testcase name="testeStringReprovadoProximo6()" classname="model.MediaCalculadorTest" time="0.012"/>
-  <testcase name="testeDoubleAprovado10()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringReprovadoProximo6()" classname="model.MediaCalculadorTest" time="0.016"/>
+  <testcase name="testeDoubleAprovado10()" classname="model.MediaCalculadorTest" time="0.0"/>
   <testcase name="testeStringReprovadoZerado()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeDoubleReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeStringAprovado10()" classname="model.MediaCalculadorTest" time="0.0"/>
-  <testcase name="testeDoubleAprovadoMaior10()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeStringAprovado10()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleAprovadoMaior10()" classname="model.MediaCalculadorTest" time="0.0"/>
   <testcase name="testeStringAcima10()" classname="model.MediaCalculadorTest" time="0.0"/>
-  <testcase name="testeStringReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleReprovadoMenor6()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.0"/>
   <testcase name="testeDoubleReprovadoZerado()" classname="model.MediaCalculadorTest" time="0.0"/>
-  <testcase name="testeDoubleReprovado01()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeDoubleReprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeStringAprovado()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleReprovado01()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleReprovado()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleAprovado6()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeStringAprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
   <testcase name="testeDoubleAprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeStringReprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringReprovado()" classname="model.MediaCalculadorTest" time="0.0"/>
   <testcase name="testeStringAprovado6()" classname="model.MediaCalculadorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

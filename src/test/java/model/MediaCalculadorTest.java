@@ -20,11 +20,19 @@ public class MediaCalculadorTest {
     }
     @Test public void testeDoubleReprovado() {
         Calculadora m = new Calculadora();
+        assertEquals(4.0, m.calcular(8.0, 0.0));
+    }
+    @Test public void testeDoubleReprovadoMenor6() {
+        Calculadora m = new Calculadora();
         assertEquals(5.95, m.calcular(10.0, 1.9));
+    }
+    @Test public void testeDoubleAprovado6(){
+        Calculadora m2 = new Calculadora();
+        assertEquals(6.0, m2.calcular(10.0, 2.0));
     }
     @Test public void testeDoubleAprovado(){
         Calculadora m2 = new Calculadora();
-        assertEquals(6.0, m2.calcular(10.0, 2.0));
+        assertEquals(8.0, m2.calcular(10.0, 6.0));
     }
     @Test public void testeDoubleAprovado10(){
         Calculadora m2 = new Calculadora();
