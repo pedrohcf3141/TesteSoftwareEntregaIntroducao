@@ -10,18 +10,34 @@ public class Calculadora{
      
 	public double calcular(double x, double y){
         double media = (x+y) * 0.5;
+        // tratamento da função em caso de retorno negativo retorna -1
+        if(media < 0.0){
+            media = -1.0;
+        }
+        // tratamento da função em casos de valores superiores a 10 retorna 10
+        else if(media >10.0){
+            media = 10.0;
+        }
         return media;
     }
     
     public String aprovacao(double x, double y){
         double media = (x+y) * 0.5;
-        if(media >= 6.0){
-            return "Aprovado";
+        String resposta;
+        /**
+         * Inclusão de casos adiocionais para se familiarizar com os novos casos acima
+         * foi pensado incluao de ifs para podermos ajustar para switch no proximo push
+         */
+
+        if (media < 0.0){
+            resposta = "Media inválida, valor negativo";
+        } else if (media < 6.0){
+            resposta = "Aluno Reprovado";
+        } else if (media <= 10.0){
+            resposta = "Aluno Aprovado";
+        } else {
+            resposta = "Media inválida, valor superior a 10";
         }
-        else{
-            return "Reprovado";
-        }
+        return resposta;
     }
-
-
 }

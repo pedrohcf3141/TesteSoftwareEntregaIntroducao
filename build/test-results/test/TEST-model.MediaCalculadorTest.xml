@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="model.MediaCalculadorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-09-16T00:39:32" hostname="pedrohcf-Aspire-A515-51" time="0.028">
+<testsuite name="model.MediaCalculadorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-14T01:04:15" hostname="pedrohcf-Aspire-A515-51" time="0.036">
   <properties/>
-  <testcase name="testeDoubleReprovado()" classname="model.MediaCalculadorTest" time="0.011"/>
-  <testcase name="testeStringAprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
-  <testcase name="testeDoubleAprovado()" classname="model.MediaCalculadorTest" time="0.011"/>
+  <testcase name="testeStringReprovadoProximo6()" classname="model.MediaCalculadorTest" time="0.012"/>
+  <testcase name="testeDoubleAprovado10()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringReprovadoZerado()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringAprovado10()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleAprovadoMaior10()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringAcima10()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeStringReprovadoNegativo()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleReprovadoZerado()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleReprovado01()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeDoubleReprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringAprovado()" classname="model.MediaCalculadorTest" time="0.0"/>
+  <testcase name="testeDoubleAprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
   <testcase name="testeStringReprovado()" classname="model.MediaCalculadorTest" time="0.001"/>
+  <testcase name="testeStringAprovado6()" classname="model.MediaCalculadorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
