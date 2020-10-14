@@ -31,4 +31,5 @@ Repositório para as entregas da Matéria Teste de Software
 [video](https://www.youtube.com/watch?v=kRVFK1GxNdI&feature=youtu.be)
 
 #### Video da segunda entrega 
-[video]()
+[video](https://www.youtube.com/watch?v=pQidvGmCegI)
+
